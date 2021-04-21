@@ -67,9 +67,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from collections import Counter
 source = 'The Project Gutenberg eBook of Homecoming Horde, by Robert Silverberg'
-# create Pandas dataframe from list of tuples
-#df = pd.DataFrame.from_records(results, columns =[xlabel, ylabel]) 
-#print(df)
+xlabel = 'Words'
+ylabel = 'Count'
 mostCommon = results[1:5]
 xlabel,ylabel = zip(*mostCommon)
 # create plot (using matplotlib)
