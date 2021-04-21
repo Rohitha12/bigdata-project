@@ -79,3 +79,7 @@ plt.xlabel("Words")
 plt.ylabel("Count")
 plt.title("Commonly used words in novel")
 ```
+![Image](https://github.com/Rohitha12/bigdata-project/blob/main/barchart.PNG)
+## References
+- https://www.edureka.co/blog/spark-with-python-pyspark
+- https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4574377819293972/2246755934805346/3186223000943570/latest.html
